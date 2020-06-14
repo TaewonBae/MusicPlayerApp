@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#D50000</color>
+    <color name="skyblue">#00B8D4</color>
+    <color name="purple">#AA00FF</color>
+
+    <color name="play_button_background">#3F51B5</color>
+    <color name="colorPrimaryDark2">#3F51B5</color>
+    <color name="colorAccent2">#F44336</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBackground">#F3F3F3</color>
+    <color name="colorStroke">#BDBDBD</color>
+    <color name="colorHint">#ECECEC</color>
+
+    <color name="corner_color">#E2E2E2</color>
+    <color name="corner_color2">#8D8D8D</color>
+</resources>

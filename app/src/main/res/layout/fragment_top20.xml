@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/search_empty"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+    <LinearLayout
+        android:background="@drawable/taenie_chart_top20_top_bottom_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:background="@color/white"
+            android:text="실시간▼"
+            android:textColor="@color/skyblue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+        <Button
+            android:background="@drawable/taenie_chart_top20_top_bottom_line"
+            android:text="■전체선택 ▶전체듣기 ▶1위~10위듣기"
+            android:textSize="14dp"
+            android:textColor="@color/skyblue"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center|left"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_search"
+        android:layout_below="@+id/search_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

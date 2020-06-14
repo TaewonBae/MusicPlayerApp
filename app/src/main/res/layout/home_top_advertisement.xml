@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:padding="7dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/adv_1" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/adv_2" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/adv_3" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/adv_4" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/adv_5" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:padding="7dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/adv_6" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
