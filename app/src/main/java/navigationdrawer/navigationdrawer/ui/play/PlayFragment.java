@@ -30,7 +30,7 @@ public class PlayFragment extends Fragment {
     public static ImageView play_album_image;
     public static TextView play_singer;
     public static TextView play_title;
-    //Play화면의 버튼들
+    //Play화면의 버튼들1
     public static ImageButton playBtn;
     public static ImageButton play_prev_Btn;
     public static ImageButton play_next_Btn;
