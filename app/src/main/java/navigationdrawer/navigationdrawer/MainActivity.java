@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity{
             e.printStackTrace();
         }
 
-        // Insert the fragment by replacing any existing fragment1
+        // Insert the fragment by replacing any existing fragment
 
         fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.nav_host_fragment, fragment).commit();
