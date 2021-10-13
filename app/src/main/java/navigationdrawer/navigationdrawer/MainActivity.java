@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity{
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);//toolbar 이미지 가운데정렬999
+        getSupportActionBar().setDisplayShowTitleEnabled(false);//toolbar 이미지 가운데정렬9991
 
         drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
